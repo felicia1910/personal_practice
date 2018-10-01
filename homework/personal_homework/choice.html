@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>動物來電50-選擇那個牠</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <!-- 瀑布css -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://masonry.desandro.com/jquery.masonry.min.js"></script>
+    <!-- or -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/none.css">
+    <link rel="stylesheet" href="css/ani1.css.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/choice.css">
+    <style>
+        /* * {
+            border: solid 1px;
+        } */
+    </style>
+</head>
+
+<body>
+    <input type="checkbox" name="" id="checked_nav">
+    <nav class="top_nav fixed-top">
+        <a href="../index.html"><div class="logo">
+                <img src="images/logo.svg" alt="">
+            </div></a>
+        <label for="checked_nav">
+            <div class="three_line">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+        </label>
+        <div class="container_nav" id="container_nav">
+            <ul>
+                <a href="../personal_homework/about.html">
+                    <li>
+                        關於我們
+                    </li>
+                </a>
+                <a href="../personal_homework/sign.html">
+                    <li>
+                        註冊/登錄
+                    </li>
+                </a>
+                <a href="../personal_homework/choice.html">
+                    <li>
+                        認識其他人
+                    </li>
+                </a>
+                <a href="../personal_homework/togerther.html">
+                    <li>
+                        幸福宣言
+                    </li>
+                </a>
+                <li class="special" id="special">
+                    <div class="community_hide">
+                        <div class="hide_box">
+                            <a href="">
+                                <img src="images/F_icon.svg" alt="">
+                            </a>
+                            <a href="">
+                                <img src="images/tiwwer.svg" alt="">
+                            </a>
+                            <a href="" class="d_l">
+                                <img src="images/ig.svg" alt="">
+                            </a>
+                            <a href="" class="d_l p4">
+                                <img src="images/line-logo.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="top_text">
+                <h1>找牠聊聊</h1>
+                <div class="top_text_box "></div>
+                <h5>animals singles mixer form here...</h5>
+            </div>
+        </div>
+        <!-- <div class="container top_pic_border">
+            <figure class="top_pic"><img src="images/pic11.jpg" alt=""></figure>
+            <div class="top_pic_white_box"></div>
+        </div> -->
+        <div class="community top_community">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="images/F_icon.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/tiwwer.svg" alt="">
+                    </a>
+                </li>
+                <li class="d_l">
+                    <a href="">
+                        <img src="images/ig.svg" alt="">
+                    </a>
+                </li>
+                <li class="d_l p4">
+                    <a href="">
+                        <img src="images/line-logo.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="choice container">
+            <ul class="row" id="row_">
+                <!-- <li class="animals_box wow fadeInUp col-lg-4 col-xs-12" id="row_box">
+                    <div class="choice_box">
+                        <figure class="choice_pic"><img src="images/pic1.jpg" alt=""></figure>
+                        <div class="name">Ava</div>
+                        <div class="age">1歲/女
+                            <br>興趣:和會飛的生物玩 </div>
+                        <div class="age_line"></div>
+                        <figure class="icon_love">
+                            <img src="images/chat.svg" alt="">
+                        </figure>
+                    </div>
+                </li> -->
+            </ul>
+            <div class="row" data-0="display:none" data-400="display: block">
+                <div class="col-lg-10 xs-0"></div>
+                <a href="../personal_homework/sign.html">
+                <div class="col-lg-2 xs-12 all_btn">
+                    <div class="all_btn_box  col-lg-12"></div> 立即加入我們
+                </div></a>
+            </div>
+        </div>
+    </section>
+    <a href="#" class="fixed" id="goTop">
+        <img src="images/TOP.svg" alt="">
+    </a>
+    <div class="footer_box">
+        <footer class="flexed-end" data-0="transform:translateY(200%);opacity:0" data-7400="transform:translateY(0%);opacity:1">
+            <div class="community footer_community" data-0="display:none" data-7400="display: block">
+                <ul>
+                    <li class="d_l">
+                        <a href="">
+                            <img src="images/F_icon.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="d_l">
+                        <a href="">
+                            <img src="images/tiwwer.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/ig.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/line-logo.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo_footer" data-0="display:none" data-7410="display: block">
+                <a href="../index.html"><img src="images/logo.svg" alt=""></a>
+            </div>
+            <div class="footer_nav" data-0="display:none" data-7412="display: block">
+                <ul>
+                    <li>
+                        <a href="../index.html"> 首頁</a>
+                    </li>
+                    <li>
+                        <a href="../personal_homework/about.html"> 關於我們</a>
+                    </li>
+                    <li>
+                        <a href="../personal_homework/sign.html"> 註冊/登錄</a>
+                    </li>
+                    <li>
+                        <a href="../personal_homework/choice.html"> 認識其他人</a>
+                    </li>
+                    <li>
+                        <a href="../personal_homework/togerther.html"> 幸福宣言</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_line" data-0="display:none" data-7412="display: block"></div>
+            <div class="footer_2018" data-0="display:none" data-7412="display: block">@2018/Site design by
+                <span>Shin Shr Chan</span> /Take
+                <span>DrawingArt's design </span>as a reference. </div>
+            <div class="footer_2018 footer_company" data-0="display:none" data-7412="display: block">
+                <ul>
+                    <li>
+                        <a href="">-隱私權政策- </a>
+                    </li>
+                    <li>
+                        <a href="">-服務條款- </a>
+                    </li>
+                    <li>
+                        <a href="">-榮譽守則-</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tran2 tran3" data-0="margin-right:-300px;transform:translateY(200%);" data-7412="margin-right:0px;transform:translateY(-98%);"></div>
+            <div class="footer_banner" data-0="transform:translateY(200%)skew(-40deg);opacity:0" data-7412="transform:translateY(0%)skew(-40deg);opacity:1"></div>
+        </footer>
+    </div>
+    <div class="test"></div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+        //到頂端
+        $("#goTop").click(function () {
+            $("body, html").animate({
+                scrollTop: 0
+            }, 2500);
+        })
+    </script>
+    <!-- 滾動視窗外掛 -->
+    <script src="../personal_homework/js/skrollr.js"></script>
+    <!-- 瀑布流 -->
+    <script src="../personal_homework/js/wow.min.js"></script>
+    <!-- SVG -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!--MY-->
+    <script>
+        new WOW().init();
+        var s = skrollr.init();
+        //--頂端nav--//
+        var scrollLast = 0;
+        $(window).scroll(function () {
+            let scrollNow = $(this).scrollTop();
+            if (scrollNow > scrollLast) {
+                $(".top_nav").addClass("hide_nav");
+                $(".three_line").css("opacity", "0");
+                $(".logo").css("display", "none");
+                $("#container_nav").css("display", "none");
+            } else {
+                $(".top_nav").removeClass("hide_nav");
+                $(".three_line").css("opacity", "1");
+                $(".logo").css("display", "block").css("animation", "initial").css("opacity", "1");
+                $("#container_nav").css("display", "block");
+                if ($("#container_nav").css("display", "block")) {
+                    $("#checked_nav").prop("checked", false);
+                }
+            }
+            scrollLast = scrollNow;
+        });
+        //偵測頂端
+        $(window).scroll(function () {
+            let screenTop = $(this).scrollTop();
+            // console.log(`test: ${screenTop}`);
+        });
+        //迴圈填資料
+        var sliderPic = ["pic1c.jpg", "pic2c.jpg", "pic3d.jpg", "pic4d.jpg", "pic5d.jpg", "pic6d.jpg", "pic7c.jpg", "pic8c.jpg", "pic9c.jpg", "pic28e.jpg", "pic30d.jpg", "pic27d.jpg"];
+        var sliderPic2 = ["pic34d.jpg", "pic35e.jpg", "pic36d.jpg", "pic14e.jpg", "pic15c.jpg", "pic16d.jpg", "pic17d.jpg", "pic18d.jpg", "pic19e.jpg", "pic20d.jpg", "pic21c.jpg", "pic22c.jpg"];
+        var sliderPic3 = ["pic33c.jpg", "pic22c.jpg", "pic23d.jpg", "pic24c.jpg", "pic25d.jpg", "pic26d.jpg", "pic27d.jpg", "pic28e.jpg", "pic29d.jpg", "pic30d.jpg", "pic32d.jpg", "pic31d.jpg"];
+        var sliderName = ["Amy", "Timmy", "Kenny", "Tom", "Doris", "Kimmy", "Bar", "Sandy", "Steven", "Pore", "Danny", "Kasa"];
+        var sliderName2 = ["Apphia", "Vivian", "Vic", "Alison", "Winston", "Breenda	", "Carol", "Ziv", "Debby", "Celeste", "Catherine", "Xavier"];
+        var sliderName3 = ["Zavier", "Cathy", "Elva", "Quincy", "Dawn", "Darlene", "Algernon", "Santiago", "Brianna", "April", "Yasir", "Tracy"];
+        var sliderAge = ["1歲/女", "3歲/男", "2歲/女", "2歲/男", "5歲/女", "3歲/女", "1歲/女", "2歲/男", "7歲/女", "3歲/男", "2歲/女", "3歲/男",];
+        var sliderAge2 = ["6歲/男", "2歲/女", "7歲/女", "1歲/男", "5歲/男", "1歲/女", "6歲/男", "1歲/男", "3歲/男", "3歲/男", "2歲/女", "2歲/女",];
+        var sliderAge3 = ["6歲/女", "3歲/男", "1歲/女", "2歲/男", "4歲/女", "4歲/男", "3歲/男", "8歲/女", "9歲/女", "1歲/男", "3歲/女", "1歲/男",];
+        var sliderHobby = ["翻垃圾桶", "高空彈跳", "開冰箱", "唱歌跳舞", "睡覺", "抓會動的生物", "玩蟑螂", "出去玩", "唱歌跳舞", "觀察主人", "翻垃圾桶", "裝可愛",];
+        var sliderHobby2 = ["吃東西", "說話", "洗棉花糖", "看電影", "幫主人找伴侶", "抓飛行生物", "看漫畫", "認識新朋友", "尋寶", "張大眼睛", "吃東西", "抓魚",];
+        var sliderHobby3 = ["睡覺", "玩鍵盤", "搓手", "睡覺", "跑步", "抓飛行生物", "玩", "出去玩", "唱歌跳舞", "觀察主人", "翻垃圾桶", "裝死",];
+        var sliderPicCount = sliderPic.length;
+
+        for (let $i = 0; $i < sliderPicCount; $i++) {
+            $("#row_").append(`<li class="animals_box wow fadeInUp col-lg-4 col-xs-12" data-wow-delay=".1s">
+                        <div class="choice_box">
+                        <figure class="choice_pic"><img src="images/${sliderPic[$i]}" alt=""></figure>
+                        <div class="name">${sliderName[$i]}</div>
+                        <div class="age">${sliderAge[$i]}<br>興趣:${sliderHobby[$i]} </div>
+                        <div class="age_line"></div>
+                        <figure class="icon_love"><img src="images/chat.svg" alt=""></figure></div></li>
+                        <li class="animals_box wow fadeInUp col-lg-4 col-xs-12" data-wow-delay=".2s">
+                        <div class="choice_box">
+                        <figure class="choice_pic"><img src="images/${sliderPic2[$i]}" alt=""></figure>
+                        <div class="name">${sliderName2[$i]}</div>
+                        <div class="age">${sliderAge2[$i]}<br>興趣:${sliderHobby2[$i]} </div>
+                        <div class="age_line"></div>
+                        <figure class="icon_love"><img src="images/chat.svg" alt=""></figure></div></li>
+                        <li class="animals_box wow fadeInUp col-lg-4 col-xs-12" data-wow-delay=".3">
+                        <div class="choice_box">
+                        <figure class="choice_pic"><img src="images/${sliderPic3[$i]}" alt=""></figure>
+                        <div class="name">${sliderName3[$i]}</div>
+                        <div class="age">${sliderAge3[$i]}<br>興趣:${sliderHobby3[$i]} </div>
+                        <div class="age_line"></div>
+                        <figure class="icon_love"><img src="images/chat.svg" alt=""></figure></div></li>`);
+            // $("#paging").append("<li></li>");
+        }
+        //
+        //動
+        $(document).ready(function () {
+            var mouseX, mouseY;
+            var ww = $(window).width();
+            var wh = $(window).height();
+            var traX, traY;
+            $(document).mousemove(function (e) {
+                mouseX = e.pageX;
+                mouseY = e.pageY;
+                traX = ((4 * mouseX) / 570) + 40;
+                traY = ((4 * mouseY) / 570) + 50;
+                console.log(traX);
+                $(".top_text h1").css({ "background-position": traX + "%" + traY + "%" });
+            });
+        });
+        //BC
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 200,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#eeeeee"
+                },
+                "shape": {
+                    "type": "image",
+                    "stroke": {
+                        "width": 3,
+                        "color": "#fff"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "https://res.cloudinary.com/dkdgtnacb/image/upload/v1537495660/fff.png",
+                        "width": 300,
+                        "height": 300,
+                        "z-index": 15
+                    }
+                },
+                "opacity": {
+                    "value": 0.7,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.2,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 20,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false,
+                    "distance": 50,
+                    "color": "#ffffff",
+                    "opacity": 0.2,
+                    "width": 3
+                },
+                "move": {
+                    "enable": true,
+                    "speed": .5,
+                    "direction": "bottom",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": true,
+                        "rotateX": 300,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "bubble"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 150,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 100,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": .2,
+                        "speed": .5
+                    },
+                    "repulse": {
+                        "distance": 50,
+                        "duration": 5
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+
+</html>

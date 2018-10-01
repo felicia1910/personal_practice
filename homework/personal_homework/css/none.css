@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif,微軟正黑體;
+    position: relative;
+}
+ul li{
+    list-style: none;
+    color: #eee;
+}
+ul li:hover{
+    text-decoration:underline;
+    color: #eee;
+}
+a{
+    color: #eee;
+}

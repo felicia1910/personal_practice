@@ -1,0 +1,66 @@
+#particles-js {
+    position: absolute;
+    width: 100vw;
+    height: 800px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.banner_pic{
+    height: 650px;
+    overflow: hidden;
+    border: solid 7px #fff;
+    opacity: 0;
+    animation: about_up_down .7s ease-in forwards;
+    animation-delay: .7s;
+}
+.banner_pic img{
+    width: 100%;
+    object-fit: cover;
+}
+.text{
+    color: #1d446f;
+    margin-top: 370px;
+}
+.text h3{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 36px;
+}
+.text p, .text ul{
+    line-height: 42px;
+    padding: 20px 0;
+}
+.text .area{
+    padding: 30px;
+}
+.sign_bg{
+    position: absolute;
+    z-index: -2;
+    width: 700px;
+    height: 700px;
+    top: -30%;
+    left: 75%;
+}
+.sign_bg img{
+    width: 100%;
+    object-fit: cover;
+}
+.sign_bg2{
+    left: -15%;
+    top: 75%;
+}
+section{
+    overflow: hidden;
+    padding-bottom: 250px;
+}
+@media screen and ( max-width: 860px){
+    .banner_pic img{
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.area2 ul li{
+    color: #1d446f;
+    text-decoration: none;
+}
